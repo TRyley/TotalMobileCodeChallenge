@@ -1,0 +1,36 @@
+﻿@model EmployeeViewModel;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="page-container">
+
+    <div id="employee-list">
+        <table id="employee-list">
+            @if(Model != null)
+            {
+             @foreach(var employee in Model.employees)
+                {
+                    <div style="border-top: 1px solid black;">
+                        <p>Employee ID: @employee.Id</p>
+                        <p>@employee.Name</p>
+
+                        <div id="shift-info">
+                            <p>Total Hours: @employee.HoursWorked.TotalHoursWorked Hours</p>
+
+                            @foreach(var month in employee.HoursWorked.MonthlyHoursWorked)
+                            {
+                                <p>@month.Key : @month.Value Hours</p>
+                            }
+                        </div>
+                    
+
+                    </div>
+                }   
+            }
+        </table>
+    </div>
+
+    
+
+</div>

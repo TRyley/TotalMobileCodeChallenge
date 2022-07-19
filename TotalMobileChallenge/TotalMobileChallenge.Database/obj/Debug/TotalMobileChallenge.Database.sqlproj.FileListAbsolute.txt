@@ -1,0 +1,6 @@
+C:\Users\terry\source\repos\TotalMobileChallenge\TotalMobileChallenge.Database\bin\Debug\TotalMobileChallenge.Database.dacpac
+C:\Users\terry\source\repos\TotalMobileChallenge\TotalMobileChallenge.Database\obj\Debug\TotalMobileChallenge.Database.sqlproj.AssemblyReference.cache
+C:\Users\terry\source\repos\TotalMobileChallenge\TotalMobileChallenge.Database\obj\Debug\TotalMobileChallenge.Database.dll
+C:\Users\terry\source\repos\TotalMobileChallenge\TotalMobileChallenge.Database\obj\Debug\TotalMobileChallenge.Database.pdb
+C:\Users\terry\source\repos\TotalMobileChallenge\TotalMobileChallenge.Database\bin\Debug\TotalMobileChallenge.Database.dll
+C:\Users\terry\source\repos\TotalMobileChallenge\TotalMobileChallenge.Database\bin\Debug\TotalMobileChallenge.Database.pdb
